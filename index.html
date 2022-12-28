@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<!--Every HTML page needs to start with the doctype, lets the browser know we are using HTML in this file-->
+<html lang="en-US">
+  <!--html tag is always the parent of <head> and <body>, we always need a head and body-->
+  <head>
+    <meta charset="UTF-8" />
+    <title>The Basic Language of the Web:HTML</title>
+    <link rel=" stylesheet " href="style.css" />
+  </head>
+  <script src="script.js"></script>
+  <!-- the head section is for everything that isnt visible in the browser-->
+  <body>
+    <header class="main-header">
+      <h1>📘 The Code Magazine</h1>
+      <nav>
+        <a class="navlink" href="blog.html">Blog</a>
+        <a class="navlink" href="#">Challenges</a>
+        <a class="navlink" href="#">Flexbox</a>
+        <a class="navlink" href="#">CSS Grid</a>
+      </nav>
+    </header>
+    <section class="main-section">
+      <article>
+        <header>
+          <h2>The Basic Language of the Web:HTML</h2>
+          <div class="author-box">
+            <img
+              src="./assets/laura-jones.jpg"
+              alt="profile photo"
+              width="50px"
+              height="50px"
+            />
+            <p id="author">
+              Posted by <strong>Laura Jones </strong>on Monday, June 21st 2027
+            </p>
+          </div>
+          <img
+            src="./assets/post-img.jpg"
+            alt="HTML code on a screen"
+            width="100%"
+          />
+          <!--alt stands for alternative text. It describes what the image is. It allows search engines to know what the image is. It also allows blind people to use the website. They use screen readers to read the alternative text to them-->
+        </header>
+        <p>
+          All modern websites and web applications are built using three
+          fundamental technologies: HTML, CSS and JavaScript. These are the
+          languages of the web.
+        </p>
+        <p>
+          In this post, let's focus on HTML. We will learn what HTML is all
+          about, and why you too should learn it.
+        </p>
+        <h3>What is HTML?</h3>
+        <ol>
+          <li>The opening tag</li>
+          <li>the closing tag</li>
+          <li>the actual element</li>
+        </ol>
+        <p>
+          You can learn more at
+          <a href="https://developer.mozilla.org/en-US/">MDN Web Docs</a>
+        </p>
+
+        <h3>Why should you learn HTML?</h3>
+        <p>
+          There are countless reasons for learning the fundamental language of
+          the web. Here are 5 of them
+        </p>
+
+        <ul>
+          <li>To be able to use the fundamental web dev language</li>
+          <li>
+            To hand-craft beautiful websites instead of relying on tools like
+            Worpress or Wix
+          </li>
+          <li>To build web applications</li>
+          <li>To impress friends</li>
+          <li>To have fun 😃</li>
+        </ul>
+        <p>Hopefully you learned something new here. See you next time!</p>
+      </article>
+      <aside class="related">
+        <h4>Related Posts</h4>
+        <ul class="related-posts">
+          <li>
+            <img
+              src="./assets/related-1.jpg"
+              alt="person typing"
+              width="75px"
+            />
+            <a href="#">How to Learn Web Development</a>
+            <p class="related-author">By Vincent Chen</p>
+          </li>
+          <li>
+            <img
+              src="./assets/related-2.jpg"
+              alt="person typing"
+              width="75px"
+            />
+            <a href="#">The Unknown Powers of CSS</a>
+            <p class="related-author">By Johnny Cash</p>
+          </li>
+          <li>
+            <img
+              src="./assets/related-3.jpg"
+              alt="person typing"
+              width="75px"
+            />
+            <a href="#">Why JavaScript is Awesome</a>
+            <p class="related-author">By Matilda Beddet</p>
+          </li>
+        </ul>
+      </aside>
+      <!--aside element indicates content that is secondary to the main page-->
+    </section>
+    <footer>
+      <p id="copyright">Copyright &copy; 2027 by The Code Magazine.</p>
+    </footer>
+  </body>
+</html>
+
+<!--Semantic HTML
+Specific HTML tags are just boxes that tells HTML what the content is.
+e.g. using <nav> specifies that the content inside is the navigation. Other examples are <p> <h1> <nav>. Technically they all do the same thing as <div> which is a normal box. 
+    Semantic HTML gives our elements meaning. It allows for search engine optimisation, allowing google to understand our content. It also improves accessibility i.e. people who use screenreaders. 
+    We should not just think about how they look like, we should think about what they mean and what they stand for
+
+-->
